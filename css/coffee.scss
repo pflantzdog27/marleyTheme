@@ -1,0 +1,161 @@
+#coffee-nav {
+    ul {
+      padding: 0;
+        li {
+          height: 237px;
+          cursor: pointer;
+          list-style: none;
+          padding: 0;
+          margin: 0;
+            a {
+              display: block;
+              height: 237px;
+              text-align: center;
+              color: $brown;
+              @include transition(all,0.3s);
+                strong {
+                  text-transform: uppercase;
+                  font-family: $themefont-bold;
+                }
+                &:hover {
+                  text-decoration: none;
+                  font-size: 1.1em;
+                }
+            }
+        }
+        .jbm { background: url(../images/nav-item-coffee.png)no-repeat 50% 100%;}
+        .organic { background: url(../images/nav-item-coffee-organic.png)no-repeat 50% 100%;}
+        .real-cups { background: url(../images/nav-item-cups.png)no-repeat 50% 100%;}
+        .packets { background: url(../images/nav-item-packets.png)no-repeat 50% 100%;}
+    }
+
+}
+.grounds-section {
+  margin-top: 30px;
+  position: relative;
+  min-height: 300px;
+      > header {
+          background: $brown;
+          hgroup {
+            position: relative;
+            @include standardHeader();
+              h3 {
+                font-size: 17px;
+                margin-top: 15px;
+              }
+              .right_title {
+                float: right;
+                padding-right: 100px;
+                text-align: right;
+                text-transform: uppercase;
+              }
+            img {
+              position: absolute;
+              top: -10px;
+              right: 10px;
+              display: block;
+            }
+          }
+      }
+      .section-loading {
+        width: 100%;
+        height: 100%;
+        background: url(../images/ajax-loader.GIF) no-repeat center;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+  .grounds-main {
+    background: #fff;
+    padding: 15px;
+    color: $brown;
+      .intro-item {
+        padding: 15px 0;
+        p {
+          font-family: $themefont-bold;
+          padding-bottom: 15px;
+        }
+      }
+      .ground-items-wrap {
+        position: relative;
+          .ground-item {
+              figure img{
+                margin: 0 auto;
+              }
+              .realcup {
+                text-align: center;
+              }
+              margin-bottom: 30px;
+              h4 {
+                text-transform: uppercase;
+                font-family: $themefont-bold;
+              }
+              small {
+                font-family: $themefont;
+              }
+              ul {
+                margin: 0;
+                margin-top: 20px;
+                padding: 0;
+                list-style: none;
+                font-family: $themefont;
+                  li {
+                    font-size: .7em;  
+                    text-transform: uppercase;
+                  }
+              }
+
+          }
+      }
+  }
+}
+.buying-options {
+  margin: 30px 0;
+    ul {
+      padding: 0;
+       li {
+         font: {
+           family: $themefont-bold;
+           size: 19px;
+         }
+         text-transform: uppercase;
+         list-style: none;
+         text-align: center;
+         padding: 0;
+            a {
+              line-height: 2.5;
+              //display: block;
+              color: #fff;
+              //background: $yellow;
+            }
+       }
+    }
+}
+
+#real-cups-footer {
+  background: #fff;
+  padding: 15px 0 10px;
+  overflow: hidden;
+  border-top: 1px solid $brown;
+    header {
+      font : {
+        family: $themefont-bold;
+        color: $brown;
+      }
+      text-align: center;
+        h5 {
+          font-size: 22px;
+        }
+        h6 {
+          font-size: 15px;
+        }
+    }
+}
+.plugin-text {
+  font : {
+    size: 22px;
+    family: $themefont;
+    weight: normal;
+  }
+  text-align:center;
+}

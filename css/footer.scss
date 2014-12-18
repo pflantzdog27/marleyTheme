@@ -1,0 +1,81 @@
+#footer {
+  background: url(../images/stripped-border.png) repeat-x 0 0;
+  background-color: $brown;
+  @include box-shadow(0px -10px 30px,$brown);
+  margin-top: 100px;
+  z-index: 2;
+  visibility: hidden;
+    .container {
+      //display: none;
+      position: relative;
+      padding: 50px 0 100px;
+        aside {
+          position: absolute;
+          bottom: 0;
+          right: -500px;
+        }
+        #footer-nav {
+              h4 {
+                color: $yellow;
+                text-transform: uppercase;
+                font : {
+                  family: $themefont-bold;
+                  size: 15px;
+                }
+              }
+              li {
+                list-style: none;
+                color: #fff;
+                  a {
+                    color: $footerNavItemColor;
+                    @include transition(all,0.4s);
+                      &:hover {
+                        color: $yellow;
+                      }
+                  }
+              }
+              #footer-col-1 {
+                  li {
+                    padding: 10px 0;
+                    font-family: $themefont-bold;
+                  }
+              }
+        }
+        .copyright {
+          position: absolute;
+          bottom: 0;
+          left: 15px;
+          color: $footerNavItemColor;
+          padding: 20px 0 10px;
+          //border-top: 1px solid $footerBorders;
+        }
+    }
+}
+#email-input {
+  margin-top: 8px;
+  background: rgba(255,255,255,0.2);
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: 0;
+  padding: 3px 5px;
+}
+#email-submit {
+  margin-top: 8px;
+  background: $yellow;
+  -webkit-border-top-right-radius: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  -moz-border-radius-topright: 5px;
+  -moz-border-radius-bottomright: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: 0;
+  font-family: $themefont-bold;
+  color: $brown;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 3px 5px;
+}

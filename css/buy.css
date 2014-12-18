@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body.page-id-1308 .page-title {
+display: none;
+}
+div.buy-full-list {
+padding: 0 10px 0 10px;
+background: white; 
+}
+
+body.page-id-1308  #inner-template {
+	background: none;
+}
+div.lcp_catlist p {
+	float: left;
+	position: relative;
+}
+
+div.lcp_catlist p a:first-child {
+	opacity: 0;
+text-indent: -9999em;
+position: absolute;
+z-index: 40;
+width: 255px;
+top: 58px;
+height: 155px;
+}
+div.buy-full-list {
+	background: none;
+}
+div.buy-full-list section.grounds-section {
+margin-bottom: 50px;
+background: white;
+padding: 15px;
+float: left;
+}
+div.buy-full-list div.grounds-section {
+	padding: 0 0 0 0;
+}
+div.buy-full-list section.grounds-section a img {
+	max-width: 100%;
+	overflow: hidden;
+}
+div.buy-full-list section.grounds-section h2{
+position: relative;
+top: 0;
+left: 20px;
+}
+section.buygroup {
+clear: both;
+}
+body.page-id-1308 .page-share {
+padding-left: 25px;
+}
+body.page-id-1308 .grounds-section .grounds-main {
+	padding: 0 0 0 0;
+}
