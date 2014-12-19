@@ -69,24 +69,24 @@ $(document).ready(function (){
         $(this).find('.slideshow-title').stop().animate({bottom: '-150px'},500);
     });
 
-    $('#main-nav li:eq(0),#left-side-nav li:eq(0)').find('a').addClass('glyphicon glyphicon-home');
-
     // small screen navigation
-    var leftNav = $('#left-side-nav');
-    $('#mobile-menu-icon').click(function(e) {
-        e.preventDefault();
-        $(this).animate({opacity:0},200);
-        leftNav.css('min-height',$(window).height()).css('max-height',$(window).height());
-        leftNav.fadeIn(1,function() {
-            $(this).animate({'margin-left': 0},500);
-        });
-        $('.close').click(function() {
-            leftNav.animate({'margin-left': '-500px'},500,function() {
-                $(this).fadeOut(1);
-                $('#mobile-menu-icon').animate({opacity:1},300);
-            })
-        })
-    });
+	if($(window).width() < 768) {
+		var leftNav = $('#left-side-nav');
+		$('#mobile-menu-icon').click(function(e) {
+			e.preventDefault();
+			$(this).animate({opacity:0},200);
+			leftNav.css('min-height',$(window).height()).css('max-height',$(window).height());
+			leftNav.fadeIn(1,function() {
+				$(this).animate({'margin-left': 0},500);
+			});
+			$('.close').click(function() {
+				leftNav.animate({'margin-left': '-500px'},500,function() {
+					$(this).fadeOut(1);
+					$('#mobile-menu-icon').animate({opacity:1},300);
+				})
+			})
+		});
+	}		
 
     // mobile menu
     if($(window).width() < 768) {
@@ -373,7 +373,7 @@ $(window).scroll(function() {
         var distance = $('#wrapper').offset().top;
         if ( $(window).scrollTop() >= distance ) {
             $('#navigation-wrap').addClass('fixed-position');
-            $('#wrapper > .container').css('padding-top','110px');
+            $('#wrapper > .container').css('padding-top','195px');
             $('#marley-logo').css('visibility','hidden');
             $('#image-51').css('visibility','visible').addClass('remain-visible');
         } else {
