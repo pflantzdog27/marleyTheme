@@ -6,7 +6,6 @@
                         <ul class="col-sm-3">
                             <h4>Marley Family</h4>
                             <li><a target="_blank" href="http://bobmarley.com">BobMarley.com</a></li>
-                            <li><a target="_blank" href="http://1love.org">1Love</a></li>
                             <li><a target="_blank" href="http://tuffgongworldwide.com">Tuff Gong Worldwide</a></li>
                             <li><a target="_blank" href="http://houseofmarley.com">House of Marley</a></li>
                             <li><a target="_blank" href="http://drinkmarley.com">Marley Beverage<br>Company</a></li>
@@ -16,8 +15,8 @@
                             <h4>Partners</h4>
                             <li><a target="_blank" href="http://www.realcup.com/brands/#4_US-EN">RealCup™ Single Serve Cups</a></li>
                             <li><a target="_blank" href="http://marleycoffeestores.com">AVT Automated Retail</a></li>
-                            <li><a target="_blank" href="http://www.bikecaffe.com/marleycoffee ">Marley Coffee BikeCaffe</a></li>
                             <li><a target="_blank" href="http://www.gardenoflife.com/Products-for-Life/RAW-Fit.aspx">Garden of Life</a></li>
+							<li><a target="_blank" href="http://marleycoffee.com/corporate-sponsorships/">Sports Partnerships</a></li>
                             <h4>International Partners</h4>
                             <li><a target="_blank" href="http://www.marleycoffee.co.uk">United Kingdom</a></li>
                             <li><a target="_blank" href="http://www.marleycoffee.cl">Chile</a></li>
@@ -35,10 +34,6 @@
                             <li><a href="http://investor.marleycoffee.com/events.php">Calendar of Events</a></li>
                         </ul>
                         <ul class="col-sm-3">
-                            <h4>Affiliates/Partners</h4>
-                            <li>Access <strong><a href="http://marleycoffee.com/affiliates-partners/">Marley
-                                        Coffee<br> Brand Assets</a></strong> for logos,<br>
-                                product photos and<br> other resources.</li>
                             <h4>Join our Mailing List</h4>
                             <li>Sign up for the Marley Coffee news and updates</li>
                             <li><form action="https://docs.google.com/forms/d/1E0_5ZzYZW6eDcx5XkegO76KQ3KHHmoxUR2oNqtQEMVM/formResponse" method="POST" target="hidden_iframe" id="email-form-signup" onsubmit="submitted = true">
