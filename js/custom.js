@@ -265,48 +265,48 @@ $(document).ready(function (){
     var myPlaylist = new jPlayerPlaylist({
         jPlayer: "#jquery_jplayer_N",
         cssSelectorAncestor: "#jp_container_N"
-    }, [
+    },  [
         {
             title:"Stir It Up",
             artist:"Bob Marley",
-            mp3:"http://shmishing.com/marley-dev/wp-content/uploads/2014/01/stir_it_up.mp3",
-            poster: "http://shmishing.com/marley-dev/wp-content/uploads/2014/02/MusicPlayer_BobMarley1.jpg"
+            mp3:"http://marleycoffee.com/wp-content/uploads/2014/01/stir_it_up.mp3",
+            poster: "http://marleycoffee.com/wp-content/uploads/2014/02/MusicPlayer_BobMarley1.jpg"
         },
         {
             title:"One More Cup of Coffee",
             artist:"Bob Marley",
-            mp3:"http://shmishing.com/marley-dev/wp-content/uploads/2014/01/one_more_cup_of_coffee.mp3",
-            poster: "http://shmishing.com/marley-dev/wp-content/uploads/2014/02/MusicPlayer_BobMarley2.jpg"
+            mp3:"http://marleycoffee.com/wp-content/uploads/2014/01/one_more_cup_of_coffee.mp3",
+            poster: "http://marleycoffee.com/wp-content/uploads/2014/02/MusicPlayer_BobMarley2.jpg"
         },
         {
             title:"Could You be Loved",
             artist:"Bob Marley",
-            mp3:"http://shmishing.com/marley-dev/wp-content/uploads/2014/01/could_you_be_loved.mp3",
-            poster: "http://shmishing.com/marley-dev/wp-content/uploads/2014/02/MusicPlayer_BobMarley3.jpg"
+            mp3:"http://marleycoffee.com/wp-content/uploads/2014/01/could_you_be_loved.mp3",
+            poster: "http://marleycoffee.com/wp-content/uploads/2014/02/MusicPlayer_BobMarley3.jpg"
         },
         {
             title:"Jammin'",
             artist:"Bob Marley",
-            mp3:"http://shmishing.com/marley-dev/wp-content/uploads/2014/01/jammin.mp3",
-            poster: "http://shmishing.com/marley-dev/wp-content/uploads/2014/02/MusicPlayer_BobMarley4.jpg"
+            mp3:"http://marleycoffee.com/wp-content/uploads/2014/01/jammin.mp3",
+            poster: "http://marleycoffee.com/wp-content/uploads/2014/02/MusicPlayer_BobMarley4.jpg"
         },
         {
             title:"Lively Up Yourself",
             artist:"Bob Marley",
-            mp3:"http://shmishing.com/marley-dev/wp-content/uploads/2014/01/lively_up_yourself.mp3",
-            poster: "http://shmishing.com/marley-dev/wp-content/uploads/2014/02/MusicPlayer_BobMarley5.jpg"
+            mp3:"http://marleycoffee.com/wp-content/uploads/2014/01/lively_up_yourself.mp3",
+            poster: "http://marleycoffee.com/wp-content/uploads/2014/02/MusicPlayer_BobMarley5.jpg"
         },
         {
             title:"Positive Vibration",
             artist:"Bob Marley",
-            mp3:"http://shmishing.com/marley-dev/wp-content/uploads/2014/01/positive_vibration.mp3",
-            poster: "http://shmishing.com/marley-dev/wp-content/uploads/2014/02/MusicPlayer_BobMarley6.jpg"
+            mp3:"http://marleycoffee.com/wp-content/uploads/2014/01/positive_vibration.mp3",
+            poster: "http://marleycoffee.com/wp-content/uploads/2014/02/MusicPlayer_BobMarley6.jpg"
         },
         {
             title:"No Woman, No Cry",
             artist:"Bob Marley",
-            mp3:"http://shmishing.com/marley-dev/wp-content/uploads/2014/01/05-No-Woman-No-Cry.mp3",
-            poster: "http://shmishing.com/marley-dev/wp-content/uploads/2014/02/MusicPlayer_BobMarley7.jpg"
+            mp3:"http://marleycoffee.com/wp-content/uploads/2014/01/05-No-Woman-No-Cry.mp3",
+            poster: "http://marleycoffee.com/wp-content/uploads/2014/02/MusicPlayer_BobMarley7.jpg"
         }
 
     ], {
@@ -373,7 +373,7 @@ $(window).scroll(function() {
         var distance = $('#wrapper').offset().top;
         if ( $(window).scrollTop() >= distance ) {
             $('#navigation-wrap').addClass('fixed-position');
-            $('#wrapper > .container').css('padding-top','195px');
+            $('#wrapper > .container').css('padding-top','155px');
             $('#marley-logo').css('visibility','hidden');
             $('#image-51').css('visibility','visible').addClass('remain-visible');
         } else {

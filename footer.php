@@ -21,8 +21,6 @@
                             <li><a target="_blank" href="http://www.marleycoffee.co.uk">United Kingdom</a></li>
                             <li><a target="_blank" href="http://www.marleycoffee.cl">Chile</a></li>
                             <li>Korea</li>
-                            <li><a target="_blank" href="http://drinkmarley.dk/">Denmark</a></li>
-      <li><a target="_blank" href="marleycoffee.com/australia/">Australia</a></li>
                         </ul>
                         <ul class="col-sm-3">
                             <h4>Investor Relations</h4>

@@ -17,13 +17,12 @@ Template Name: Affiliates Layout
 <a href="mailto:artdept@marleycoffee.com">artdept@marleycoffee.com</a></p>
                 <br>
             <div class="row">
-                <div class="col-sm-4"><a class="col-sm-12 btn btn-default marley-btn" href="https://brandfolder.com/marleycoffee" target="_blank" onclick="Brandfolder.showEmbed({brandfolder_id: 'marleycoffee'});return false;">Brand Assets North America</a></div>
-                <div class="col-sm-4"><a class="col-sm-12 btn btn-default marley-btn" href="https://brandfolder.com/marleycoffeeinternational" target="_blank" onclick="Brandfolder.showEmbed({brandfolder_id: 'marleycoffeeinternational'});return false;">Brand Assets International</a></div>
-                <div class="col-sm-4"><a class="col-sm-12 btn btn-default marley-btn-reverse" href="https://docs.google.com/a/ogilvy.com/forms/d/1pfLRTQN6Abr9Nm_cP_14oeXPu9cv-HadTITjSz8miJo/viewform" target="_blank">Request Access</a></div>
+                <div class="col-sm-6"><a class="col-sm-12 btn btn-default marley-btn" href="https://brandfolder.com/marleycoffee" target="_blank" onclick="Brandfolder.showEmbed({brandfolder_id: 'marleycoffee'});return false;">Brand Assets North America</a></div>
+                <div class="col-sm-6"><a class="col-sm-12 btn btn-default marley-btn-reverse" href="https://docs.google.com/a/ogilvy.com/forms/d/1pfLRTQN6Abr9Nm_cP_14oeXPu9cv-HadTITjSz8miJo/viewform" target="_blank">Request Access</a></div>
             </div>
             <div class="clearfix"></div>
         </section>
-        <section class="multi-section-page">
+        <!--<section class="multi-section-page">
             <header class="page-title">
                 <h2 style="text-align: center;">Foodservice / Hospitality / Office Coffee Service Products</h2>
             </header>
@@ -38,15 +37,15 @@ Template Name: Affiliates Layout
                             Tea</a></li>
                 </ul>
             </nav>
-        </section>
+        </section>-->
 
-        <?php if (have_posts()) :?>
-            <?php while (have_posts()) : the_post(); ?>
+        <?php/* if (have_posts()) :
+            while (have_posts()) : the_post(); 
 
-                <?php the_content();?>
+                 the_content();
 
-            <?php endwhile;?>
-        <?php endif; ?>
+            endwhile;
+        endif; */?>
 
         <div class="page-share">
             <strong class="share-command">SHARE:</strong>

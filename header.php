@@ -68,28 +68,23 @@
         <nav id="main-nav-wrap" class="navbar navbar-default navbar-inverse" role="navigation">
             <div class="container">
 				<div class="row">
-					<div class="col-xs-2">
-						<a href="#"><img id="mobile-menu-icon" class="img-responsive" src="<?php bloginfo('template_url') ?>/images/logo-small.jpg"></a>
+					<div class="pull-left">
+						<a id="mobile-menu-icon" href="<?php get_home_url(); ?>"><img width="88" height="80" class="img-responsive" src="<?php bloginfo('template_url') ?>/images/logo.jpg"></a>
 					</div>
-					<div class="col-xs-10" id="primary-links">
-						<div class="row">
+					<div id="primary-links">
 							<?php $defaults = array(
 							'theme_location'  => 'main_nav',
 							'container'       => false,
 							'menu_class'      => false,
-							'items_wrap'      => '<ul id="main-nav" class="nav navbar-nav col-sm-8">%3$s</ul>'
+							'items_wrap'      => '<ul id="main-nav" class="pull-left">%3$s</ul>'
 							);  wp_nav_menu( $defaults ); ?>
-							<ul class="nav navbar-nav navbar-right col-sm-4 pull-right visible-md visible-lg" id="social-networks">
+							<ul class="nav navbar-nav navbar-right pull-right visible-md visible-lg" id="social-networks">
 								<li id="email-icon"><a href="http://marleycoffee.com/contact-us/"></a></li>
-								<li id="instagram"><a target="_blank" href="http://instagram.com/marleycoffee"></a></li>
-								<!--<li id="pintrest"><a target="_blank" href="http://www.pinterest.com/themarleycoffee/"></a></li>-->
-								<!--<li id="google-icon"><a target="_blank" href="https://plus.google.com/103727062090227968007"></a></li>-->
-								<!--<li id="youtube"><a target="_blank" href="https://www.youtube.com/channel/UC0oDYys0d3sLZhLgjMP86wQ"></a></li>-->
 								<li id="twitter"><a target="_blank" href="https://twitter.com/MarleyCoffee"></a></li>
+								<li id="instagram"><a target="_blank" href="http://instagram.com/marleycoffee"></a></li>
 								<li id="facebook"><a target="_blank" href="https://www.facebook.com/MarleyCoffee"></a></li>
 								<li id="music"><a href="http://marleycoffee.com/music-player/" rel="external"></a></li>
 							</ul>
-						</div>						
 					</div>
 				</div>	
             </div>
