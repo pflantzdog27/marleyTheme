@@ -248,9 +248,8 @@ text-decoration: none;		}
   background-position: -235px -25px; }
   
   #lock-icon a {
-  background: url(../images/social-network-sprite.png) no-repeat -235px 0; }
-#lock-icon a:hover {
-  background-position: -235px -25px; }
+  background: url(../images/social-network-sprite.png) no-repeat -312px 0; }
+
 
 #sort-nav {
   border-radius: 0;
